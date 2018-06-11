@@ -1,0 +1,26 @@
+$color-blue-light: #4A90E2;
+$color-blue: #00408B;
+$color-red: #D0021B;
+$color-orange: #F5A623;
+$color-pink: #FFF2DC;
+$color-grey: #C8C8C8;
+$color-grey-light: #E1E1E1;
+$color-grey-dark: #757575;
+$color-white: #FFF;
+$color-white-dark: #F2F2F2;
+$color-black: #000;
+
+$fz-title:  24px;
+$fz-subTitle:  20px;
+$fz-paragraph:  16px;
+$fz-remark:  16px;
+$fz-placeholder:  16px;
+$fz-status:  24px;
+
+$width-content: 620px;
+
+@mixin flex($j: center, $a: center){
+    display:flex;
+    justify-content:$j;
+    align-items: $a;
+}
